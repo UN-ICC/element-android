@@ -202,9 +202,6 @@ android {
         }
         release {
             storeFile file('../wto/releaseKeystore')
-            storePassword 'wtomatrix'
-            keyAlias 'wtomatrix'
-            keyPassword 'wtomatrix'
         }
     }
 
