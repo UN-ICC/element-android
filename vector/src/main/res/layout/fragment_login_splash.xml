@@ -47,7 +47,7 @@
             android:layout_marginTop="8dp"
             android:contentDescription="@string/app_name"
             android:src="@drawable/element_logotype"
-            app:tint="?colorAccent"
+            app:tint="?colorControlNormal"
             tools:ignore="MissingPrefix" />
 
     </LinearLayout>
