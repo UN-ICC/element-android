@@ -165,7 +165,7 @@
         app:constraint_referenced_ids="pipRenderer, fullscreenRenderer"
         tools:visibility="invisible" />
 
-    <im.vector.app.features.call.CallControlsView
+    <im.vector.wtomatrix.features.call.CallControlsView
         android:id="@+id/callControlsView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

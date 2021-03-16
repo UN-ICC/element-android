@@ -109,7 +109,7 @@ android {
     ndkVersion "21.3.6528147"
 
     defaultConfig {
-        applicationId "im.vector.app"
+        applicationId "im.vector.wtomatrix"
         // Set to API 21: see #405
         minSdkVersion 21
         targetSdkVersion 30
@@ -137,7 +137,7 @@ android {
         buildConfigField "String", "BUILD_NUMBER", "\"${buildNumber}\""
         resValue "string", "build_number", "\"${buildNumber}\""
 
-        buildConfigField "im.vector.app.features.crypto.keysrequest.OutboundSessionKeySharingStrategy", "outboundSessionKeySharingStrategy", "im.vector.app.features.crypto.keysrequest.OutboundSessionKeySharingStrategy.WhenTyping"
+        buildConfigField "im.vector.wtomatrix.features.crypto.keysrequest.OutboundSessionKeySharingStrategy", "outboundSessionKeySharingStrategy", "im.vector.wtomatrix.features.crypto.keysrequest.OutboundSessionKeySharingStrategy.WhenTyping"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 

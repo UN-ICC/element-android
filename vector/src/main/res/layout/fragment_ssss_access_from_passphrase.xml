@@ -77,7 +77,7 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <im.vector.app.core.ui.views.RevealPasswordImageView
+        <im.vector.wtomatrix.core.ui.views.RevealPasswordImageView
             android:id="@+id/ssss_view_show_password"
             android:layout_width="@dimen/layout_touch_size"
             android:layout_height="@dimen/layout_touch_size"
@@ -122,7 +122,7 @@
             app:layout_constraintTop_toBottomOf="@+id/ssss_passphrase_enter_til"
             app:layout_goneMarginBottom="32dp" />
 
-        <im.vector.app.core.ui.views.BottomSheetActionButton
+        <im.vector.wtomatrix.core.ui.views.BottomSheetActionButton
             android:id="@+id/ssss_passphrase_reset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

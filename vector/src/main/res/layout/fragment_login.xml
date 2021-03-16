@@ -87,7 +87,7 @@
 
                 </com.google.android.material.textfield.TextInputLayout>
 
-                <im.vector.app.core.ui.views.RevealPasswordImageView
+                <im.vector.wtomatrix.core.ui.views.RevealPasswordImageView
                     android:id="@+id/passwordReveal"
                     android:layout_width="@dimen/layout_touch_size"
                     android:layout_height="@dimen/layout_touch_size"
@@ -154,7 +154,7 @@
                     android:textAppearance="@style/TextAppearance.Vector.Login.Text"
                     android:textSize="14sp" />
 
-                <im.vector.app.features.login.SocialLoginButtonsView
+                <im.vector.wtomatrix.features.login.SocialLoginButtonsView
                     android:id="@+id/loginSocialLoginButtons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
