@@ -14,7 +14,7 @@ kapt {
 // Note: 2 digits max for each value
 ext.versionMajor = 1
 ext.versionMinor = 1
-ext.versionPatch = 1
+ext.versionPatch = 3
 
 static def getGitTimestamp() {
     def cmd = 'git show -s --format=%ct'
@@ -207,7 +207,6 @@ android {
 
     buildTypes {
         debug {
-            applicationIdSuffix ".debug"
             resValue "string", "app_name", "WTO Matrix dbg"
 
             resValue "bool", "debug_mode", "true"
